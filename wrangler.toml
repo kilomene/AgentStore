@@ -1,0 +1,16 @@
+name = "agent-store"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agentstore-db"
+database_id = "90230198-91cc-4caa-b38c-075d1f338f22"
+
+[vars]
+PLATFORM_FEE_PCT = "10"
